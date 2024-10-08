@@ -1,4 +1,6 @@
+import { FaLocationArrow } from "react-icons/fa"
 import { BackgroundGradientAnimation } from "./ui/background-gradient-animation"
+import LitUpButton from "./ui/LitUpButton"
 import { TextGenerateEffect } from "./ui/text-generate-effect"
 
 const Hero = () => {
@@ -21,6 +23,14 @@ const Hero = () => {
                                 />
                             </div>
                         </div>
+
+                        <a href='#about'>
+                            <LitUpButton 
+                                title="My Work"
+                                icon={<FaLocationArrow />}
+                                position='right'
+                            />
+                        </a>
 
                     </div>
                 </BackgroundGradientAnimation>
