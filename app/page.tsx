@@ -13,7 +13,9 @@ export default function Home() {
         {name: 'Home', link: '/', icon: <FaHome />}
       ]}/>
       <Hero />
-      <Grid />
+      <section className='relative'>
+        <Grid />
+      </section>
     </div>
    </main>
   );
