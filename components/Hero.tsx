@@ -19,7 +19,7 @@ const Hero = () => {
                             <div className='max-w-full sm:max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center'>
                                 <TextGenerateEffect 
                                     className="text-center text-[24px] sm:text-[32px] md:text-5xl lg:text-6xl"
-                                    words="Transforming Concepts into Seamless Experiences"
+                                    words="Transforming Concepts into Seamless User Experiences"
                                 />
                             </div>
                         </div>
